@@ -1,0 +1,61 @@
+{
+	"info": {
+		"_postman_id": "2892d680-c84a-4e9b-826b-8acdcdb7b1cf",
+		"name": "Desafio EasyRev",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36481644"
+	},
+	"item": [
+		{
+			"name": "Quartos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/rooms",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"rooms"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Preço",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"occupancy_rate\": 85,\r\n  \"is_holiday_or_weekend\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/rooms/1/price",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"rooms",
+						"1",
+						"price"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
