@@ -1,75 +1,30 @@
-# Nuxt Minimal Starter
+# Frontend - Desafio EasyRev
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Este é o frontend para o Desafio EasyRev.
 
-## Setup
+## 🚀 Tecnologias Utilizadas
 
-Make sure to install dependencies:
+- Nuxt.js
+- Vue.js
+- Tailwind CSS
+- Pinia
+- Axios
 
+## 📦 Instalação
+
+1. **Clone o repositório** :
 ```bash
-# npm
+git clone https://github.com/Gabrielrc11/desafio_easyrev.git
+cd desafio_easyrev/frontend
+```
+
+2. **Instale as dependências**:
+```bash
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
+3. **Execute a aplicação**:
 ```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Acesse: `http://localhost:3000`
